@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".SignUpActivity">
+
+    <!--<EditText-->
+        <!--android:id="@+id/editTextFname"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginEnd="10dp"-->
+        <!--android:ems="10"-->
+        <!--android:hint="Email Address"-->
+        <!--android:inputType="textEmailAddress"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editTextPassword"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginEnd="10dp"-->
+        <!--android:ems="10"-->
+        <!--android:hint="Password"-->
+        <!--android:inputType="textPassword"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/editTextFname" />-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/button_log_in"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginEnd="10dp"-->
+        <!--android:text="LOG IN"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView_Forgot_password"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="109dp"-->
+        <!--android:layout_marginTop="189dp"-->
+        <!--android:text="FORGOT PASSWORD?"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/linearLayout3"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/linearLayout3"-->
+        <!--android:layout_width="368dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_marginBottom="124dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="4"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.625"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textView_Forgot_password">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_feedback"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:drawableTop="@android:drawable/ic_menu_send"-->
+            <!--android:drawablePadding="5dp"-->
+            <!--android:text="Feedback" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_call"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:drawableTop="@android:drawable/sym_action_call"-->
+            <!--android:drawablePadding="5dp"-->
+            <!--android:text="Call" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_rate"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:drawableTop="@android:drawable/btn_star_big_on"-->
+            <!--android:drawablePadding="5dp"-->
+            <!--android:text="Rate us" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/imageViewLogout"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:drawableTop="@android:drawable/sym_action_email"-->
+            <!--android:drawablePadding="5dp"-->
+            <!--android:text="Email" />-->
+    <!--</LinearLayout>-->
+
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/linearLayout4"-->
+        <!--android:layout_width="368dp"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginBottom="24dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="4"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="1.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_facebook"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:drawableTop="@drawable/fb1"-->
+            <!--android:drawablePadding="5dp"-->
+            <!--android:text="Facebook" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_twitter"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:drawableTop="@drawable/twitter"-->
+            <!--android:drawablePadding="5dp"-->
+            <!--android:text="twitter" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_linkedin"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:drawableTop="@drawable/linkin"-->
+            <!--android:drawablePadding="5dp"-->
+            <!--android:text="LinkedIn" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_googleplus"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:drawableTop="@drawable/gop"-->
+            <!--android:drawablePadding="5dp"-->
+            <!--android:text="Google" />-->
+    <!--</LinearLayout>-->
+
+
+</android.support.constraint.ConstraintLayout>
