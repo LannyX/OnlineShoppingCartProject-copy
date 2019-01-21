@@ -89,7 +89,8 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="Mobile"
-            android:inputType="textPersonName"
+            android:maxLength="12"
+            android:inputType="phone"
             app:layout_constraintBottom_toTopOf="@+id/editTextSEmail" />
     </LinearLayout>
 

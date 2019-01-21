@@ -1,5 +1,6 @@
 package com.lanny.onlineshoppingcart.cart;
 
+import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.CardView;
@@ -110,7 +111,14 @@ public class MyCartViewAdapter extends RecyclerView.Adapter<MyCartViewAdapter.My
                 myDataBase.delete(myDBHelper.TABLE_NAME,"ID" + " = " + list.getId(), null);
 
                 myWishDB = myWishListDBHelper.getWritableDatabase();
-                myWishDB.insert(myWishListDBHelper.TABLE_NAME,"ID" + " = " + list.getId(), null);
+                ContentValues values = new ContentValues();
+                values.put(myWishListDBHelper.ID, list.getId());
+                values.put(myWishListDBHelper.NAME, list.getPname());
+                values.put(myWishListDBHelper.QUANTITY, list.getPrice());
+                values.put(myWishListDBHelper.PRICE, list.getPrice());
+                values.put(myWishListDBHelper.IMAGE_URL, list.getImage());
+
+                myWishDB.insert(myWishListDBHelper.TABLE_NAME, null, values);
 
                 mProd.remove(position);
                 notifyItemRemoved(position);

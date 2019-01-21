@@ -57,7 +57,9 @@
                 android:id="@+id/editTextUpdateMobile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Mobile" />
+                android:hint="Mobile"
+                android:maxLength="12"
+                android:inputType="phone"/>
 
             <Button
                 android:layout_marginTop="40dp"

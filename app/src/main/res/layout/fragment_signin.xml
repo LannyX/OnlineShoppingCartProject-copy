@@ -15,7 +15,8 @@
         android:layout_marginStart="10dp"
         android:ems="10"
         android:hint="Mobile"
-        android:inputType="textEmailAddress"
+        android:maxLength="12"
+        android:inputType="phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

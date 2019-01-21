@@ -181,7 +181,7 @@ public class SigninFragment extends Fragment {
                     message = "Connection TimeOut! Please check your internet connection.";
                 }
 
-                Log.i("xxx", message.toString());
+                Log.i("aaa", message.toString());
             }
         });
 //        {

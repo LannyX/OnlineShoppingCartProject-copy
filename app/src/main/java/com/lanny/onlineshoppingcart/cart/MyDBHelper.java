@@ -14,7 +14,7 @@ public class MyDBHelper extends SQLiteOpenHelper {
     public static final String IMAGE_URL = "image_url";
     public static final String ID = "id";
 
-    public static final int VERSION = 2;
+    public static final int VERSION = 3;
 
     public MyDBHelper(Context context) {
         super(context, DATABASE_NAME, null, VERSION);

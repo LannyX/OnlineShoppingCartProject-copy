@@ -63,14 +63,14 @@ public class SignupFragment extends Fragment implements SignupContract.SignupVie
                 @Override
                 public void onClick(View v) {
                     emailB = Pattern.compile("^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$").matcher(loginEmail.getText().toString()).matches();
-                    mobileB = Pattern.compile("(.)*(\\d)(.)*").matcher(loginMobile.getText().toString()).matches();
+                    mobileB = Pattern.compile("^(?=.*[0-9])(?=\\S+$).{8,}$").matcher(loginMobile.getText().toString()).matches();
                     passwordB = Pattern.compile("^(?=.*[0-9])(?=\\S+$).{8,}$").matcher(loginPassword.getText().toString()).matches();
                     Log.i("aaa", emailB + " " + fnameB+ " "+ passwordB + "" +mobileB);
 
                     if(emailB != true){
                         Toast.makeText(getContext(), "Please use valid email address", Toast.LENGTH_SHORT).show();
                     }else if (mobileB != true){
-                        Toast.makeText(getContext(), "Mobile phone can only contains digits", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getContext(), "Mobile phone must has at least 8 digits", Toast.LENGTH_SHORT).show();
                     }else if (passwordB != true){
                         Toast.makeText(getContext(), "Password must has at least 8 digits", Toast.LENGTH_SHORT).show();
                     }else {
